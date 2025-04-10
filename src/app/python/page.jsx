@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import questionsData from "../data/questions.json";
+import questionsData from "../data/pythonQuestions.json";
 
 function python() {
   const [quiz, setQuiz] = useState([]);
