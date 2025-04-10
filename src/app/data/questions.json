@@ -550,188 +550,273 @@
   },
   {
     "id": 70,
-    "question": "Sample auto-generated question 1",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "What do you call a block of code that performs a specific task in Python?",
+    "options": ["a) Function", "b) Variable", "c) Module", "d) Loop"],
     "answer": "a"
   },
   {
     "id": 71,
-    "question": "Sample auto-generated question 2",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "What does the DRY principle stand for?",
+    "options": [
+      "a) Don't Repeat Yourself",
+      "b) Do Repeat Yourself",
+      "c) Direct, Reliable, Yes",
+      "d) Develop, Run, Yield"
+    ],
     "answer": "a"
   },
   {
     "id": 72,
-    "question": "Sample auto-generated question 3",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What symbol is used for multiplication in Python?",
+    "options": ["a) x", "b) *", "c) %", "d) **"],
+    "answer": "b"
   },
   {
     "id": 73,
-    "question": "Sample auto-generated question 4",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What is the output of 3 ** 2 in Python?",
+    "options": ["a) 6", "b) 9", "c) 8", "d) 5"],
+    "answer": "b"
   },
   {
     "id": 74,
-    "question": "Sample auto-generated question 5",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which operator is used for floor division?",
+    "options": ["a) /", "b) //", "c) %", "d) **"],
+    "answer": "b"
   },
   {
     "id": 75,
-    "question": "Sample auto-generated question 6",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "How do you convert a float to an integer in Python?",
+    "options": ["a) int()", "b) float()", "c) str()", "d) bool()"],
     "answer": "a"
   },
   {
     "id": 76,
-    "question": "Sample auto-generated question 7",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which of the following is NOT a Boolean operator in Python?",
+    "options": ["a) and", "b) or", "c) not", "d) but"],
+    "answer": "d"
   },
   {
     "id": 77,
-    "question": "Sample auto-generated question 8",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What is the purpose of the if-elif-else structure?",
+    "options": [
+      "a) To repeat code",
+      "b) To handle multiple conditions",
+      "c) To define functions",
+      "d) To import modules"
+    ],
+    "answer": "b"
   },
   {
     "id": 78,
-    "question": "Sample auto-generated question 9",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What keyword is used to exit a loop immediately?",
+    "options": ["a) continue", "b) exit", "c) break", "d) pass"],
+    "answer": "c"
   },
   {
     "id": 79,
-    "question": "Sample auto-generated question 10",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "Which method is used to open a file for reading in Python?",
+    "options": [
+      "a) open(filename, 'r')",
+      "b) file.open(filename)",
+      "c) read(filename)",
+      "d) open(filename, 'w')"
+    ],
     "answer": "a"
   },
   {
     "id": 80,
-    "question": "Sample auto-generated question 11",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which built-in function is used to determine the number of elements in a list?",
+    "options": ["a) count()", "b) size()", "c) len()", "d) length()"],
+    "answer": "c"
   },
   {
     "id": 81,
-    "question": "Sample auto-generated question 12",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "How are comments indicated in Python?",
+    "options": ["a) //", "b) <!-- -->", "c) #", "d) /* */"],
+    "answer": "c"
   },
   {
     "id": 82,
-    "question": "Sample auto-generated question 13",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What does the term 'mutability' refer to in Python?",
+    "options": [
+      "a) Data type conversion",
+      "b) Whether an object can be changed",
+      "c) The order of execution",
+      "d) The size of an object"
+    ],
+    "answer": "b"
   },
   {
     "id": 83,
-    "question": "Sample auto-generated question 14",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which of these is a mutable data type in Python?",
+    "options": ["a) tuple", "b) string", "c) list", "d) int"],
+    "answer": "c"
   },
   {
     "id": 84,
-    "question": "Sample auto-generated question 15",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "In Python, what is a module?",
+    "options": [
+      "a) A file containing Python definitions and statements",
+      "b) A special variable",
+      "c) A function",
+      "d) A programming language"
+    ],
     "answer": "a"
   },
   {
     "id": 85,
-    "question": "Sample auto-generated question 16",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which method is used to add an item to the end of a list?",
+    "options": ["a) add()", "b) append()", "c) insert()", "d) push()"],
+    "answer": "b"
   },
   {
     "id": 86,
-    "question": "Sample auto-generated question 17",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "What does JSON stand for?",
+    "options": [
+      "a) JavaScript Object Notation",
+      "b) Java Serialized Object Notation",
+      "c) JSON Standard",
+      "d) JavaScript Online Notation"
+    ],
     "answer": "a"
   },
   {
     "id": 87,
-    "question": "Sample auto-generated question 18",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which Python keyword is used in conjunction with try to handle exceptions?",
+    "options": ["a) catch", "b) except", "c) finally", "d) error"],
+    "answer": "b"
   },
   {
     "id": 88,
-    "question": "Sample auto-generated question 19",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What is a package in Python?",
+    "options": [
+      "a) A single file of Python code",
+      "b) A collection of modules in a directory",
+      "c) A built-in library",
+      "d) A function"
+    ],
+    "answer": "b"
   },
   {
     "id": 89,
-    "question": "Sample auto-generated question 20",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which command is used to install packages from PyPI?",
+    "options": [
+      "a) npm install",
+      "b) pip install",
+      "c) yarn add",
+      "d) install-py"
+    ],
+    "answer": "b"
   },
   {
     "id": 90,
-    "question": "Sample auto-generated question 21",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "What does the __init__ method in a Python class do?",
+    "options": [
+      "a) Initializes a new instance of a class",
+      "b) Destroys an instance",
+      "c) Prints the class name",
+      "d) Imports a module"
+    ],
     "answer": "a"
   },
   {
     "id": 91,
-    "question": "Sample auto-generated question 22",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which of the following is the correct way to define a function in Python?",
+    "options": [
+      "a) function myFunc() {}",
+      "b) def myFunc():",
+      "c) func myFunc() {}",
+      "d) define myFunc():"
+    ],
+    "answer": "b"
   },
   {
     "id": 92,
-    "question": "Sample auto-generated question 23",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "How do you create a multi-line string in Python?",
+    "options": [
+      "a) Using triple quotes",
+      "b) Using double quotes",
+      "c) Using single quotes",
+      "d) Using backticks"
+    ],
     "answer": "a"
   },
   {
     "id": 93,
-    "question": "Sample auto-generated question 24",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What is the correct way to import the math module in Python?",
+    "options": [
+      "a) include math",
+      "b) import math",
+      "c) require math",
+      "d) use math"
+    ],
+    "answer": "b"
   },
   {
     "id": 94,
-    "question": "Sample auto-generated question 25",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "How do you convert a string to lowercase in Python?",
+    "options": [
+      "a) lower()",
+      "b) toLower()",
+      "c) lowercase()",
+      "d) str.lower()"
+    ],
+    "answer": "d"
   },
   {
     "id": 95,
-    "question": "Sample auto-generated question 26",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What is the purpose of the pass statement in Python?",
+    "options": [
+      "a) To exit a loop",
+      "b) To do nothing",
+      "c) To start a function",
+      "d) To pass a value"
+    ],
+    "answer": "b"
   },
   {
     "id": 96,
-    "question": "Sample auto-generated question 27",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which operator is used to raise a number to a power in Python?",
+    "options": ["a) ^", "b) **", "c) %", "d) sqrt()"],
+    "answer": "b"
   },
   {
     "id": 97,
-    "question": "Sample auto-generated question 28",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "What does the term 'garbage collection' refer to in Python?",
+    "options": [
+      "a) Collecting data from users",
+      "b) Automatic memory management",
+      "c) Cleaning code",
+      "d) Compiling code"
+    ],
+    "answer": "b"
   },
   {
     "id": 98,
-    "question": "Sample auto-generated question 29",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "Which keyword is used to define an anonymous function in Python?",
+    "options": ["a) lambda", "b) def", "c) function", "d) anon"],
     "answer": "a"
   },
   {
     "id": 99,
-    "question": "Sample auto-generated question 30",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
+    "question": "What does the len() function do in Python?",
+    "options": [
+      "a) Returns the length of an object",
+      "b) Changes the length of an object",
+      "c) Deletes an object",
+      "d) None of the above"
+    ],
     "answer": "a"
   },
   {
     "id": 100,
-    "question": "Sample auto-generated question 31",
-    "options": ["a) Option 1", "b) Option 2", "c) Option 3", "d) Option 4"],
-    "answer": "a"
+    "question": "Which of the following is a valid Python variable name?",
+    "options": [
+      "a) 1stName",
+      "b) first_name",
+      "c) first-name",
+      "d) first name"
+    ],
+    "answer": "b"
   }
 ]
