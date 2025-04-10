@@ -2,7 +2,11 @@
 import Link from "next/link";
 
 export default function Home() {
-  const options = [{ name: "Python Quiz", link: "/python" }];
+  const options = [
+    { name: "Python Quiz", link: "/python" },
+    { name: "JavaScript Quiz", link: "/javaScript" },
+    { name: "C# Quiz", link: "/CSharp" },
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 p-8 flex flex-col items-center text-center">

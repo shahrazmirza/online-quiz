@@ -1,0 +1,877 @@
+[
+  {
+    "id": 1,
+    "question": "What is C# primarily used for?",
+    "options": [
+      "a) Scripting small desktop utilities",
+      "b) Enterprise, web, and game development",
+      "c) Server maintenance only",
+      "d) Data analysis only"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "Who developed C#?",
+    "options": ["a) Apple", "b) Microsoft", "c) Google", "d) IBM"],
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "Which company originally released C#?",
+    "options": ["a) Microsoft", "b) Oracle", "c) Sun Microsystems", "d) Adobe"],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "C# is part of which framework?",
+    "options": [
+      "a) .NET Framework",
+      "b) Java Virtual Machine",
+      "c) Ruby on Rails",
+      "d) Django"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Which keyword is used to define a class in C#?",
+    "options": ["a) function", "b) class", "c) def", "d) struct"],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "Which symbol is used to terminate a statement in C#?",
+    "options": ["a) .", "b) ;", "c) ,", "d) :"],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "Which keyword is used for inheritance in C#?",
+    "options": ["a) inherits", "b) extends", "c) :", "d) implements"],
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": "What access modifier makes class members accessible only within the same class?",
+    "options": ["a) public", "b) private", "c) protected", "d) internal"],
+    "answer": "b"
+  },
+  {
+    "id": 9,
+    "question": "Which access modifier allows visibility within the same assembly?",
+    "options": ["a) public", "b) private", "c) protected", "d) internal"],
+    "answer": "d"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is a value type in C#?",
+    "options": ["a) string", "b) object", "c) int", "d) dynamic"],
+    "answer": "c"
+  },
+  {
+    "id": 11,
+    "question": "Which type is used for true/false values in C#?",
+    "options": ["a) bool", "b) boolean", "c) Bit", "d) Bolean"],
+    "answer": "a"
+  },
+  {
+    "id": 12,
+    "question": "Which method can convert a string to an integer in C#?",
+    "options": [
+      "a) Convert.ToInt32()",
+      "b) int.Parse()",
+      "c) Both a and b",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 13,
+    "question": "How do you declare a constant in C#?",
+    "options": ["a) const", "b) var", "c) let", "d) static"],
+    "answer": "a"
+  },
+  {
+    "id": 14,
+    "question": "Which keyword is used to define an abstract class in C#?",
+    "options": ["a) abstract", "b) virtual", "c) sealed", "d) static"],
+    "answer": "a"
+  },
+  {
+    "id": 15,
+    "question": "What does the 'static' keyword indicate in C#?",
+    "options": [
+      "a) The member belongs to the class itself rather than an instance",
+      "b) The member can change dynamically",
+      "c) The member is immutable",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 16,
+    "question": "Which collection type is part of System.Collections.Generic in C#?",
+    "options": ["a) ArrayList", "b) List<T>", "c) Hashtable", "d) Stack"],
+    "answer": "b"
+  },
+  {
+    "id": 17,
+    "question": "Which method is used to add an element to a List<T> in C#?",
+    "options": ["a) add()", "b) Insert()", "c) Add()", "d) Append()"],
+    "answer": "c"
+  },
+  {
+    "id": 18,
+    "question": "Which keyword is used for exception handling in C#?",
+    "options": ["a) try-catch", "b) catch-try", "c) handle", "d) exception"],
+    "answer": "a"
+  },
+  {
+    "id": 19,
+    "question": "Which block is always executed whether an exception occurs or not?",
+    "options": ["a) catch", "b) finally", "c) try", "d) throw"],
+    "answer": "b"
+  },
+  {
+    "id": 20,
+    "question": "Which keyword is used to create an instance of a class in C#?",
+    "options": ["a) create", "b) construct", "c) new", "d) instance"],
+    "answer": "c"
+  },
+  {
+    "id": 21,
+    "question": "Which statement correctly defines a property in C#?",
+    "options": [
+      "a) public int Age { get; set; }",
+      "b) public int Age = { get; set; }",
+      "c) int Age { get; set; }",
+      "d) property int Age { get; set; }"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 22,
+    "question": "What is the use of the 'using' statement in C#?",
+    "options": [
+      "a) To import namespaces",
+      "b) To ensure the correct disposal of resources",
+      "c) Both a and b",
+      "d) To create a loop"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 23,
+    "question": "What does LINQ stand for in C#?",
+    "options": [
+      "a) Language Integrated Query",
+      "b) Logical International Query",
+      "c) Light Internet Query",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is the correct syntax for a lambda expression in C#?",
+    "options": [
+      "a) (x) => x * x",
+      "b) x => { return x * x; }",
+      "c) Both a and b",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is a reference type in C#?",
+    "options": ["a) int", "b) double", "c) string", "d) bool"],
+    "answer": "c"
+  },
+  {
+    "id": 26,
+    "question": "Which access modifier indicates that a member is accessible only within its own class or struct?",
+    "options": ["a) public", "b) private", "c) internal", "d) protected"],
+    "answer": "b"
+  },
+  {
+    "id": 27,
+    "question": "What is the correct way to create a new array of integers with 5 elements in C#?",
+    "options": [
+      "a) int[] numbers = new int[5];",
+      "b) int numbers = new int[5];",
+      "c) int numbers[] = new int[5];",
+      "d) int[] numbers = [5];"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is NOT a loop type in C#?",
+    "options": ["a) for", "b) while", "c) foreach", "d) each"],
+    "answer": "d"
+  },
+  {
+    "id": 29,
+    "question": "Which operator is used to compare two values for equality in C#?",
+    "options": ["a) =", "b) ==", "c) equals", "d) ==="],
+    "answer": "b"
+  },
+  {
+    "id": 30,
+    "question": "What is the output of Console.WriteLine(5 + 3); in C#?",
+    "options": ["a) 53", "b) 8", "c) 5+3", "d) Error"],
+    "answer": "b"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is a value type in C#?",
+    "options": ["a) string", "b) int", "c) object", "d) dynamic"],
+    "answer": "b"
+  },
+  {
+    "id": 32,
+    "question": "How do you write a single-line comment in C#?",
+    "options": [
+      "a) // comment",
+      "b) # comment",
+      "c) <!-- comment -->",
+      "d) /* comment */"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 33,
+    "question": "Which operator is used for null-coalescing in C#?",
+    "options": ["a) ??", "b) ||", "c) !?", "d) ?:"],
+    "answer": "a"
+  },
+  {
+    "id": 34,
+    "question": "Which keyword prevents a class from being inherited in C#?",
+    "options": ["a) sealed", "b) final", "c) static", "d) private"],
+    "answer": "a"
+  },
+  {
+    "id": 35,
+    "question": "What is the primary purpose of a constructor in C#?",
+    "options": [
+      "a) To create a method",
+      "b) To initialize an object",
+      "c) To destroy an object",
+      "d) To inherit properties"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 36,
+    "question": "Which keyword is used to inherit from a base class in C#?",
+    "options": ["a) extends", "b) inherits", "c) :", "d) implements"],
+    "answer": "c"
+  },
+  {
+    "id": 37,
+    "question": "What is the output of Console.WriteLine(\"Hello, \" + \"World!\"); in C#?",
+    "options": [
+      "a) Hello, World!",
+      "b) HelloWorld!",
+      "c) Hello, ",
+      "d) World!"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is NOT a built-in C# data type?",
+    "options": ["a) int", "b) float", "c) bool", "d) number"],
+    "answer": "d"
+  },
+  {
+    "id": 39,
+    "question": "What does the 'var' keyword do in C#?",
+    "options": [
+      "a) Declares a variable with dynamic type",
+      "b) Declares a variable with implicit typing",
+      "c) Declares a constant",
+      "d) Declares a new class"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 40,
+    "question": "Which C# keyword is used to handle exceptions?",
+    "options": ["a) try-catch", "b) catch-try", "c) exception", "d) handle"],
+    "answer": "a"
+  },
+  {
+    "id": 41,
+    "question": "What does the keyword 'override' do in C#?",
+    "options": [
+      "a) Hides a method",
+      "b) Replaces a virtual method of a base class",
+      "c) Creates a new method",
+      "d) Inherits a property"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is used to iterate over a collection in C#?",
+    "options": ["a) for", "b) foreach", "c) while", "d) All of the above"],
+    "answer": "d"
+  },
+  {
+    "id": 43,
+    "question": "What is the use of the 'ref' keyword in C#?",
+    "options": [
+      "a) To pass a parameter by reference",
+      "b) To pass a parameter by value",
+      "c) To return a value from a method",
+      "d) To create a pointer"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 44,
+    "question": "Which keyword is used to declare an indexer in a class?",
+    "options": ["a) index", "b) this", "c) get", "d) set"],
+    "answer": "b"
+  },
+  {
+    "id": 45,
+    "question": "What is boxing in C#?",
+    "options": [
+      "a) Converting a value type to an object type",
+      "b) Creating a new object",
+      "c) Encapsulating a reference type",
+      "d) Declaring a struct"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 46,
+    "question": "What is unboxing in C#?",
+    "options": [
+      "a) Converting an object back to a value type",
+      "b) Removing an object from memory",
+      "c) Casting a value type to a reference type",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 47,
+    "question": "Which operator is used to check if two objects refer to the same instance in C#?",
+    "options": [
+      "a) ==",
+      "b) Equals()",
+      "c) Object.ReferenceEquals()",
+      "d) ==="
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 48,
+    "question": "How do you declare a nullable type in C#?",
+    "options": ["a) int?", "b) nullable int", "c) int null", "d) int!"],
+    "answer": "a"
+  },
+  {
+    "id": 49,
+    "question": "What is the primary purpose of the 'async' keyword in C#?",
+    "options": [
+      "a) To perform asynchronous operations",
+      "b) To run multiple threads",
+      "c) To delay execution",
+      "d) To create a new process"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 50,
+    "question": "Which keyword is used in C# to await an asynchronous operation?",
+    "options": ["a) wait", "b) async", "c) await", "d) yield"],
+    "answer": "c"
+  },
+  {
+    "id": 51,
+    "question": "Which of the following is NOT a valid loop construct in C#?",
+    "options": ["a) for", "b) foreach", "c) loop", "d) while"],
+    "answer": "c"
+  },
+  {
+    "id": 52,
+    "question": "Which built-in method is used to sort an array in C#?",
+    "options": [
+      "a) Array.sort()",
+      "b) sort()",
+      "c) Array.Sort()",
+      "d) order()"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 53,
+    "question": "Which keyword is used to access base class members in a derived class in C#?",
+    "options": ["a) this", "b) base", "c) super", "d) parent"],
+    "answer": "b"
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is true about C# properties?",
+    "options": [
+      "a) They are methods",
+      "b) They encapsulate getter and setter logic",
+      "c) They are fields",
+      "d) They cannot have validation"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 55,
+    "question": "What does the 'partial' keyword allow in C#?",
+    "options": [
+      "a) Splitting a class definition across multiple files",
+      "b) Creating a partial object",
+      "c) Inheriting multiple classes",
+      "d) Overriding methods"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 56,
+    "question": "What is the output of Console.WriteLine(10 % 3) in C#?",
+    "options": ["a) 1", "b) 3", "c) 10", "d) 0"],
+    "answer": "a"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following best describes C#?",
+    "options": [
+      "a) Object-oriented and functional",
+      "b) Procedural only",
+      "c) Object-oriented only",
+      "d) Functional only"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 58,
+    "question": "Which keyword is used to declare an enumeration in C#?",
+    "options": ["a) enum", "b) enumeration", "c) list", "d) set"],
+    "answer": "a"
+  },
+  {
+    "id": 59,
+    "question": "What does the 'nameof' operator do in C#?",
+    "options": [
+      "a) Returns the name of a variable, type, or member as a string",
+      "b) Retrieves the type of a variable",
+      "c) Compares two strings",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 60,
+    "question": "Which operator is used to combine conditions in an if statement?",
+    "options": ["a) &&", "b) ||", "c) &", "d) Both a and b"],
+    "answer": "d"
+  },
+  {
+    "id": 61,
+    "question": "What is the primary function of a namespace in C#?",
+    "options": [
+      "a) To organize classes and avoid naming conflicts",
+      "b) To enforce security",
+      "c) To compile code",
+      "d) To handle exceptions"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 62,
+    "question": "What is the difference between a field and a property in C#?",
+    "options": [
+      "a) Fields expose data directly; properties provide controlled access",
+      "b) Properties are variables; fields are methods",
+      "c) Fields are methods; properties are variables",
+      "d) There is no difference"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 63,
+    "question": "Which feature allows methods in C# to have different implementations based on parameter types?",
+    "options": [
+      "a) Method overriding",
+      "b) Method overloading",
+      "c) Inheritance",
+      "d) Polymorphism"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 64,
+    "question": "What does the term 'polymorphism' refer to in C#?",
+    "options": [
+      "a) The ability of a class to have multiple constructors",
+      "b) The ability to treat objects of different classes through a common interface",
+      "c) The process of converting a derived class to its base class",
+      "d) None of the above"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 65,
+    "question": "Which keyword is used to define an interface in C#?",
+    "options": ["a) interface", "b) class", "c) abstract", "d) implements"],
+    "answer": "a"
+  },
+  {
+    "id": 66,
+    "question": "What is the purpose of the 'sealed' keyword in C#?",
+    "options": [
+      "a) To prevent a class from being inherited",
+      "b) To restrict access to a method",
+      "c) To declare a constant",
+      "d) To mark a class as abstract"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 67,
+    "question": "Which of the following is used to iterate over a collection in C# without exposing the index?",
+    "options": [
+      "a) for loop",
+      "b) foreach loop",
+      "c) while loop",
+      "d) do-while loop"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 68,
+    "question": "Which operator is used to combine strings in C#?",
+    "options": ["a) +", "b) &", "c) concat()", "d) merge()"],
+    "answer": "a"
+  },
+  {
+    "id": 69,
+    "question": "What does the 'default' keyword specify in a switch statement in C#?",
+    "options": [
+      "a) The starting case",
+      "b) The case when no other matches occur",
+      "c) The ending case",
+      "d) An error state"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 70,
+    "question": "Which of the following is NOT a valid C# data type?",
+    "options": ["a) decimal", "b) float", "c) real", "d) double"],
+    "answer": "c"
+  },
+  {
+    "id": 71,
+    "question": "What is a delegate in C#?",
+    "options": [
+      "a) A type that represents references to methods with a particular parameter list and return type",
+      "b) A mechanism for synchronous execution",
+      "c) A built-in data type",
+      "d) A loop structure"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 72,
+    "question": "Which keyword is used to encapsulate a method that can be called later?",
+    "options": ["a) delegate", "b) event", "c) callback", "d) lambda"],
+    "answer": "a"
+  },
+  {
+    "id": 73,
+    "question": "What is the role of the garbage collector in C#?",
+    "options": [
+      "a) Manual memory management",
+      "b) Automatically freeing unused memory",
+      "c) Allocating memory for new objects",
+      "d) Organizing files"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 74,
+    "question": "Which of the following is a feature of C#'s type system?",
+    "options": [
+      "a) Static typing",
+      "b) Dynamic typing",
+      "c) Both static and dynamic typing",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 75,
+    "question": "What is the purpose of attributes in C#?",
+    "options": [
+      "a) To add metadata to code elements",
+      "b) To define methods",
+      "c) To create variables",
+      "d) To organize namespaces"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 76,
+    "question": "Which modifier prevents a method from being overridden in a derived class?",
+    "options": ["a) virtual", "b) override", "c) new", "d) sealed"],
+    "answer": "d"
+  },
+  {
+    "id": 77,
+    "question": "Which of the following is used to define a generic class in C#?",
+    "options": [
+      "a) class MyClass<T> {}",
+      "b) class MyClass {}",
+      "c) generic MyClass {}",
+      "d) template MyClass {}"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 78,
+    "question": "Which method is used to find the index of an element in a List<T>?",
+    "options": [
+      "a) IndexOf()",
+      "b) FindIndex()",
+      "c) Both a and b",
+      "d) Locate()"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 79,
+    "question": "Which keyword is used to explicitly implement an interface member?",
+    "options": [
+      "a) explicit",
+      "b) base",
+      "c) interface",
+      "d) None of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 80,
+    "question": "Which of the following operators can be overloaded in C#?",
+    "options": ["a) +", "b) -", "c) *", "d) All of the above"],
+    "answer": "d"
+  },
+  {
+    "id": 81,
+    "question": "What is the output of the following code?\n\nint[] arr = {1, 2, 3};\nConsole.WriteLine(arr.Length);",
+    "options": ["a) 2", "b) 3", "c) 1", "d) 0"],
+    "answer": "b"
+  },
+  {
+    "id": 82,
+    "question": "Which of the following is used to read input from the console in C#?",
+    "options": [
+      "a) Console.Read()",
+      "b) Console.ReadLine()",
+      "c) Console.Input()",
+      "d) Console.Get()"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 83,
+    "question": "What does the 'nameof' operator return in C#?",
+    "options": [
+      "a) The variable's value",
+      "b) The variable's type",
+      "c) The name of the variable as a string",
+      "d) A boolean indicating if the variable exists"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 84,
+    "question": "Which of the following is a valid way to format strings in C#?",
+    "options": [
+      "a) String.Format()",
+      "b) Interpolated strings ($\"...\")",
+      "c) Concatenation with +",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 85,
+    "question": "What is the purpose of the 'params' keyword in a method parameter list in C#?",
+    "options": [
+      "a) To allow a variable number of arguments",
+      "b) To define an array",
+      "c) To set default values",
+      "d) To restrict parameters"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 86,
+    "question": "Which of the following is used to perform pattern matching in C# 7.0 and above?",
+    "options": [
+      "a) switch expressions",
+      "b) if-else statements",
+      "c) regex",
+      "d) Pattern matching with 'is' and 'switch'"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 87,
+    "question": "What is an auto-implemented property in C#?",
+    "options": [
+      "a) A property with a backing field automatically created by the compiler",
+      "b) A property that has no get or set accessor",
+      "c) A property that is read-only",
+      "d) A property defined in an interface"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 88,
+    "question": "What keyword is used to implement exception filters in C#?",
+    "options": ["a) catch when", "b) catch if", "c) filter", "d) try filter"],
+    "answer": "a"
+  },
+  {
+    "id": 89,
+    "question": "Which feature in C# allows for concise object initialization?",
+    "options": [
+      "a) Object initializers",
+      "b) Constructors",
+      "c) Builder pattern",
+      "d) Factory methods"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 90,
+    "question": "What is covariance in C#?",
+    "options": [
+      "a) The ability to use a more derived type than originally specified",
+      "b) The ability to use a less derived type than originally specified",
+      "c) The ability to modify generic type parameters",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 91,
+    "question": "What is contravariance in C#?",
+    "options": [
+      "a) The ability to use a more derived type than specified",
+      "b) The ability to use a less derived type than specified",
+      "c) The ability to pass null values",
+      "d) None of the above"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 92,
+    "question": "Which of the following best describes boxing and unboxing in C#?",
+    "options": [
+      "a) Converting a value type to an object and vice versa",
+      "b) Converting an object to a value type",
+      "c) Changing the type of a variable dynamically",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 93,
+    "question": "What does the '=>' operator indicate in a C# lambda expression?",
+    "options": [
+      "a) It separates the parameters from the body",
+      "b) It returns a value",
+      "c) It defines a function",
+      "d) All of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 94,
+    "question": "Which of the following is true about extension methods in C#?",
+    "options": [
+      "a) They allow you to add new methods to existing types without modifying them",
+      "b) They are static methods called as if they were instance methods",
+      "c) Both a and b",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 95,
+    "question": "Which of the following is a correct way to catch multiple exception types in C#?",
+    "options": [
+      "a) catch (Exception1 | Exception2 ex)",
+      "b) catch (Exception ex) when (ex is Exception1 || ex is Exception2)",
+      "c) catch (Exception ex) if (ex is Exception1 || ex is Exception2)",
+      "d) C# does not support catching multiple exceptions"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 96,
+    "question": "What is the function of the 'nameof' operator in C#?",
+    "options": [
+      "a) To return the name of a variable as a string",
+      "b) To check the type of a variable",
+      "c) To perform string interpolation",
+      "d) To compare two strings"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 97,
+    "question": "Which of the following statements is true regarding 'async' and 'await' in C#?",
+    "options": [
+      "a) 'async' marks a method as asynchronous",
+      "b) 'await' is used to wait for asynchronous operations to complete",
+      "c) They help write asynchronous code in a synchronous manner",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 98,
+    "question": "Which keyword is used to create a custom exception class in C#?",
+    "options": ["a) exception", "b) throw", "c) class", "d) None of the above"],
+    "answer": "c"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is a feature introduced in C# 8.0 and above?",
+    "options": [
+      "a) Nullable reference types",
+      "b) Async streams",
+      "c) Default interface methods",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 100,
+    "question": "What does the 'is' operator check in C#?",
+    "options": [
+      "a) Value equality",
+      "b) Type compatibility",
+      "c) Reference equality",
+      "d) None of the above"
+    ],
+    "answer": "b"
+  }
+]

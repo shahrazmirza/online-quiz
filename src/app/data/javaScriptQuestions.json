@@ -1,0 +1,867 @@
+[
+  {
+    "id": 1,
+    "question": "What is JavaScript primarily used for?",
+    "options": [
+      "a) Server-side scripting",
+      "b) Styling web pages",
+      "c) Making web pages interactive",
+      "d) Storing data in databases"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": ["a) //", "b) #", "c) <!--", "d) /**"],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "Which keyword declares a block-scoped variable in ES6?",
+    "options": ["a) var", "b) let", "c) const", "d) Both b and c"],
+    "answer": "d"
+  },
+  {
+    "id": 4,
+    "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+    "options": [
+      "a) <script src='app.js'></script>",
+      "b) <script href='app.js'></script>",
+      "c) <script ref='app.js'></script>",
+      "d) <script name='app.js'></script>"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Which operator is used to assign a value in JavaScript?",
+    "options": ["a) ==", "b) =", "c) ===", "d) :="],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "a) function myFunction() {}",
+      "b) def myFunction() {}",
+      "c) function:myFunction() {}",
+      "d) create myFunction() {}"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "What is the output of typeof null in JavaScript?",
+    "options": [
+      "a) \"null\"",
+      "b) \"object\"",
+      "c) \"undefined\"",
+      "d) \"number\""
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      "a) JSON.stringify()",
+      "b) JSON.parse()",
+      "c) toObject()",
+      "d) JSON.convert()"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 9,
+    "question": "How do you declare a constant in JavaScript?",
+    "options": ["a) const", "b) constant", "c) let", "d) var"],
+    "answer": "a"
+  },
+  {
+    "id": 10,
+    "question": "What is the result of 2 + '2' in JavaScript?",
+    "options": ["a) 4", "b) 22", "c) NaN", "d) 2+2"],
+    "answer": "b"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is a JavaScript data type?",
+    "options": ["a) String", "b) Number", "c) Boolean", "d) All of the above"],
+    "answer": "d"
+  },
+  {
+    "id": 12,
+    "question": "How do you check for equality in value and type in JavaScript?",
+    "options": ["a) ==", "b) equals", "c) ===", "d) !=="],
+    "answer": "c"
+  },
+  {
+    "id": 13,
+    "question": "What is the output of '5' - 3 in JavaScript?",
+    "options": ["a) '53'", "b) 2", "c) NaN", "d) '2'"],
+    "answer": "b"
+  },
+  {
+    "id": 14,
+    "question": "Which array method adds an element to the end of an array?",
+    "options": ["a) push()", "b) pop()", "c) shift()", "d) unshift()"],
+    "answer": "a"
+  },
+  {
+    "id": 15,
+    "question": "Which method removes the last element from an array?",
+    "options": ["a) push()", "b) pop()", "c) shift()", "d) unshift()"],
+    "answer": "b"
+  },
+  {
+    "id": 16,
+    "question": "How do you access the first element of an array named 'arr'?",
+    "options": ["a) arr[0]", "b) arr(0)", "c) arr.first", "d) arr.get(0)"],
+    "answer": "a"
+  },
+  {
+    "id": 17,
+    "question": "Which loop iterates over the properties of an object?",
+    "options": [
+      "a) for loop",
+      "b) for...in loop",
+      "c) for...of loop",
+      "d) while loop"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 18,
+    "question": "What is the correct syntax for a JavaScript arrow function?",
+    "options": [
+      "a) (x) => x * x",
+      "b) function(x) => { return x*x; }",
+      "c) x -> x*x",
+      "d) (x) -> { return x*x; }"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 19,
+    "question": "What does the Array.prototype.map() method do?",
+    "options": [
+      "a) Changes the original array",
+      "b) Transforms an array and returns a new array",
+      "c) Filters elements in an array",
+      "d) Finds an element in an array"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 20,
+    "question": "Which method filters an array based on a condition?",
+    "options": ["a) filter()", "b) map()", "c) reduce()", "d) forEach()"],
+    "answer": "a"
+  },
+  {
+    "id": 21,
+    "question": "What is the purpose of the JavaScript Promise object?",
+    "options": [
+      "a) To handle asynchronous operations",
+      "b) To create arrays",
+      "c) To loop through data",
+      "d) To compare objects"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 22,
+    "question": "How do you write a multi-line comment in JavaScript?",
+    "options": ["a) //", "b) /* */", "c) <!-- -->", "d) ##"],
+    "answer": "b"
+  },
+  {
+    "id": 23,
+    "question": "What is hoisting in JavaScript?",
+    "options": [
+      "a) Variables and function declarations are moved to the top of their scope",
+      "b) JavaScript function prototypes",
+      "c) DOM manipulation",
+      "d) Code minification"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 24,
+    "question": "Which keyword is used to pause and resume a function execution in async operations?",
+    "options": ["a) await", "b) pause", "c) sleep", "d) yield"],
+    "answer": "a"
+  },
+  {
+    "id": 25,
+    "question": "Which statement properly creates an object in JavaScript?",
+    "options": [
+      "a) var obj = {name: 'Alice'}",
+      "b) var obj = (name: 'Alice')",
+      "c) var obj = [name: 'Alice']",
+      "d) var obj = <name: 'Alice'>"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 26,
+    "question": "How do you add a property 'age' with value 25 to an object obj?",
+    "options": [
+      "a) obj.age = 25",
+      "b) obj[\"age\"] = 25",
+      "c) Both a and b",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 27,
+    "question": "What is the output of [1, 2, 3].length in JavaScript?",
+    "options": ["a) 2", "b) 3", "c) 4", "d) undefined"],
+    "answer": "b"
+  },
+  {
+    "id": 28,
+    "question": "Which method converts an array to a string in JavaScript?",
+    "options": ["a) toString()", "b) join()", "c) Both a and b", "d) split()"],
+    "answer": "c"
+  },
+  {
+    "id": 29,
+    "question": "What is the result of typeof [] in JavaScript?",
+    "options": ["a) 'array'", "b) 'object'", "c) 'list'", "d) 'undefined'"],
+    "answer": "b"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is NOT a reserved keyword in JavaScript?",
+    "options": ["a) break", "b) default", "c) finally", "d) then"],
+    "answer": "d"
+  },
+  {
+    "id": 31,
+    "question": "What is the correct syntax for a JavaScript conditional statement?",
+    "options": [
+      "a) if (condition) { ... }",
+      "b) if condition: { ... }",
+      "c) if { condition } { ... }",
+      "d) if (condition) then { ... }"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 32,
+    "question": "How do you create a new array from an existing array without modifying the original?",
+    "options": ["a) slice()", "b) splice()", "c) concat()", "d) Both a and c"],
+    "answer": "d"
+  },
+  {
+    "id": 33,
+    "question": "Which method is used to join two arrays in JavaScript?",
+    "options": ["a) concat()", "b) merge()", "c) join()", "d) add()"],
+    "answer": "a"
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is a valid way to create a function using a function expression?",
+    "options": [
+      "a) var myFunc = function() {}",
+      "b) function myFunc() {}",
+      "c) let myFunc() = {}",
+      "d) func myFunc() {}"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 35,
+    "question": "What does the 'this' keyword refer to inside a regular function in non-strict mode?",
+    "options": [
+      "a) The global object",
+      "b) undefined",
+      "c) The function itself",
+      "d) The object that called the function"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 36,
+    "question": "In strict mode, what is the value of 'this' in a standalone function?",
+    "options": ["a) The global object", "b) undefined", "c) null", "d) window"],
+    "answer": "b"
+  },
+  {
+    "id": 37,
+    "question": "Which method converts a JavaScript object into a JSON string?",
+    "options": [
+      "a) JSON.parse()",
+      "b) JSON.stringify()",
+      "c) toJSON()",
+      "d) JSON.convert()"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 38,
+    "question": "What is the output of 0 == '' in JavaScript?",
+    "options": ["a) true", "b) false", "c) 0", "d) ''"],
+    "answer": "a"
+  },
+  {
+    "id": 39,
+    "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+    "options": ["a) var", "b) let", "c) const", "d) static"],
+    "answer": "c"
+  },
+  {
+    "id": 40,
+    "question": "What does the '===' operator check for in JavaScript?",
+    "options": [
+      "a) Only value equality",
+      "b) Only type equality",
+      "c) Both value and type equality",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 41,
+    "question": "Which method returns the index of the first occurrence of an element in an array?",
+    "options": ["a) indexOf()", "b) findIndex()", "c) search()", "d) locate()"],
+    "answer": "a"
+  },
+  {
+    "id": 42,
+    "question": "Which method can be used to execute a function repeatedly after a fixed interval of time?",
+    "options": [
+      "a) setTimeout()",
+      "b) setInterval()",
+      "c) Both a and b",
+      "d) Neither a nor b"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 43,
+    "question": "How do you stop a timer set by setInterval()?",
+    "options": [
+      "a) clearTimeout()",
+      "b) clearInterval()",
+      "c) stopTimer()",
+      "d) cancel()"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of the 'new' keyword in JavaScript?",
+    "options": [
+      "a) To declare a new variable",
+      "b) To create an instance of an object",
+      "c) To define a new function",
+      "d) To loop over an array"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 45,
+    "question": "What is a callback function in JavaScript?",
+    "options": [
+      "a) A function passed as an argument to another function",
+      "b) A function that calls itself",
+      "c) A function that returns a promise",
+      "d) A function declared with async"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 46,
+    "question": "Which is the correct syntax for a try-catch block?",
+    "options": [
+      "a) try { ... } catch (error) { ... }",
+      "b) try { ... } except (error) { ... }",
+      "c) catch { ... } try(error) { ... }",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 47,
+    "question": "Which of the following is an example of an Immediately Invoked Function Expression (IIFE)?",
+    "options": [
+      "a) (function(){ console.log('IIFE'); })();",
+      "b) function iife(){ console.log('IIFE'); }()",
+      "c) (function(){ console.log('IIFE'); });",
+      "d) function(){ console.log('IIFE'); }();"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 48,
+    "question": "Which function is used to parse a string into an integer in JavaScript?",
+    "options": ["a) parseInt()", "b) parseFloat()", "c) Number()", "d) int()"],
+    "answer": "a"
+  },
+  {
+    "id": 49,
+    "question": "What is the result of [1, 2, 3].join('-') in JavaScript?",
+    "options": ["a) '1-2-3'", "b) '1,2,3'", "c) '123'", "d) '[1-2-3]'"],
+    "answer": "a"
+  },
+  {
+    "id": 50,
+    "question": "Which method removes the first element from an array?",
+    "options": ["a) shift()", "b) unshift()", "c) pop()", "d) slice()"],
+    "answer": "a"
+  },
+  {
+    "id": 51,
+    "question": "What will the expression [1, 2, 3].slice(1, 3) return?",
+    "options": ["a) [1, 2]", "b) [2, 3]", "c) [1, 2, 3]", "d) [3]"],
+    "answer": "b"
+  },
+  {
+    "id": 52,
+    "question": "Which operator is used for exponentiation in JavaScript?",
+    "options": ["a) ^", "b) **", "c) pow()", "d) exp()"],
+    "answer": "b"
+  },
+  {
+    "id": 53,
+    "question": "What is the result of typeof NaN in JavaScript?",
+    "options": ["a) 'number'", "b) 'NaN'", "c) 'undefined'", "d) 'object'"],
+    "answer": "a"
+  },
+  {
+    "id": 54,
+    "question": "Which method returns the first element in an array that satisfies a testing function?",
+    "options": ["a) find()", "b) filter()", "c) indexOf()", "d) some()"],
+    "answer": "a"
+  },
+  {
+    "id": 55,
+    "question": "What does the Array.prototype.reduce() method do?",
+    "options": [
+      "a) Iterates over an array and reduces it to a single value",
+      "b) Increases array length",
+      "c) Flattens arrays",
+      "d) Sorts an array"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 56,
+    "question": "Which statement is true about JavaScript functions?",
+    "options": [
+      "a) Functions are first-class objects",
+      "b) Functions cannot be passed as arguments",
+      "c) Functions do not support closures",
+      "d) Functions are only used for event handling"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 57,
+    "question": "Which method adds one or more elements to the beginning of an array?",
+    "options": ["a) push()", "b) unshift()", "c) shift()", "d) pop()"],
+    "answer": "b"
+  },
+  {
+    "id": 58,
+    "question": "What is the output of '2' + 2 in JavaScript?",
+    "options": ["a) 4", "b) '22'", "c) 22", "d) NaN"],
+    "answer": "b"
+  },
+  {
+    "id": 59,
+    "question": "How do you convert a number to a string in JavaScript?",
+    "options": [
+      "a) String(123)",
+      "b) 123.toString()",
+      "c) Both a and b",
+      "d) Convert(123)"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 60,
+    "question": "Which event is fired when a user clicks on an element?",
+    "options": ["a) onClick", "b) click", "c) mouseclick", "d) press"],
+    "answer": "b"
+  },
+  {
+    "id": 61,
+    "question": "What does DOM stand for?",
+    "options": [
+      "a) Document Object Model",
+      "b) Data Object Management",
+      "c) Digital Ordinance Model",
+      "d) Document Oriented Module"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 62,
+    "question": "How do you select an element by its ID?",
+    "options": [
+      "a) document.getElementById('id')",
+      "b) document.querySelector('#id')",
+      "c) Both a and b",
+      "d) document.select('id')"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 63,
+    "question": "Which method is used to listen for an event on a DOM element?",
+    "options": [
+      "a) addEventListener()",
+      "b) attachEvent()",
+      "c) listen()",
+      "d) on()"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 64,
+    "question": "Which of the following is a feature of ES6?",
+    "options": [
+      "a) Arrow functions",
+      "b) Template literals",
+      "c) let and const declarations",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 65,
+    "question": "What does the spread operator (...) do?",
+    "options": [
+      "a) Copies all elements of an array",
+      "b) Expands an iterable into individual elements",
+      "c) Both a and b",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 66,
+    "question": "How do you import a default export in ES6?",
+    "options": [
+      "a) import { default } from 'module'",
+      "b) import module from 'module'",
+      "c) require('module')",
+      "d) import * as module from 'module'"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 67,
+    "question": "Which operator can be used for optional chaining?",
+    "options": ["a) ?.", "b) !!", "c) &&", "d) ||"],
+    "answer": "a"
+  },
+  {
+    "id": 68,
+    "question": "Which function is used to delay execution of a function by a given number of milliseconds?",
+    "options": [
+      "a) setTimeout()",
+      "b) setInterval()",
+      "c) wait()",
+      "d) delay()"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 69,
+    "question": "What is the result of JSON.stringify({a: 1, b: 2})?",
+    "options": [
+      "a) '{a:1,b:2}'",
+      "b) '{\"a\":1,\"b\":2}'",
+      "c) [1,2]",
+      "d) 'a:1, b:2'"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 70,
+    "question": "Which method can extract a part of a string?",
+    "options": [
+      "a) slice()",
+      "b) substring()",
+      "c) substr()",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 71,
+    "question": "What is the purpose of console.log()?",
+    "options": [
+      "a) To log messages to the browser console",
+      "b) To display alerts",
+      "c) To output to a file",
+      "d) To render HTML"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 72,
+    "question": "What does the '===' operator do in JavaScript?",
+    "options": [
+      "a) Checks for value equality only",
+      "b) Checks for type equality only",
+      "c) Checks for both value and type equality",
+      "d) None of the above"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 73,
+    "question": "Which of the following correctly declares an arrow function that returns the sum of two numbers?",
+    "options": [
+      "a) const sum = (a, b) => a + b;",
+      "b) const sum = function(a, b) { return a + b; };",
+      "c) function sum(a, b) { return a + b; }",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 74,
+    "question": "Which of the following is NOT a JavaScript framework or library?",
+    "options": ["a) React", "b) Angular", "c) Vue", "d) Laravel"],
+    "answer": "d"
+  },
+  {
+    "id": 75,
+    "question": "What does event.preventDefault() do?",
+    "options": [
+      "a) Stops the default action of an element",
+      "b) Prevents further event propagation",
+      "c) Cancels an event and stops the listener",
+      "d) None of the above"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 76,
+    "question": "How do you convert a string to an integer in JavaScript?",
+    "options": ["a) parseInt()", "b) Number()", "c) Both a and b", "d) int()"],
+    "answer": "c"
+  },
+  {
+    "id": 77,
+    "question": "Which statement about JavaScript objects is true?",
+    "options": [
+      "a) They are collections of key-value pairs",
+      "b) They maintain order like arrays",
+      "c) They can only have string keys",
+      "d) They are immutable by default"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 78,
+    "question": "Which built-in method returns the keys of an object as an array?",
+    "options": [
+      "a) Object.keys()",
+      "b) Object.values()",
+      "c) Object.entries()",
+      "d) Object.map()"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 79,
+    "question": "What does the spread operator (...) do when used with objects?",
+    "options": [
+      "a) Copies properties from one object into another",
+      "b) Iterates over the object keys",
+      "c) Merges multiple arrays",
+      "d) Filters properties"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 80,
+    "question": "Which of the following is used to create a new Promise?",
+    "options": [
+      "a) new Promise()",
+      "b) Promise.create()",
+      "c) Promise.new()",
+      "d) createPromise()"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 81,
+    "question": "What does async/await help you do?",
+    "options": [
+      "a) Write asynchronous code in a synchronous style",
+      "b) Improve performance",
+      "c) Handle events",
+      "d) String manipulation"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 82,
+    "question": "How can you handle multiple promises concurrently?",
+    "options": [
+      "a) Promise.all()",
+      "b) Promise.race()",
+      "c) Promise.resolve()",
+      "d) Both a and b"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 83,
+    "question": "What is the shorthand for creating an object from variables x and y?",
+    "options": [
+      "a) { x, y }",
+      "b) { x: x, y: y }",
+      "c) Both a and b",
+      "d) Neither a nor b"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 84,
+    "question": "Which loop is best for iterating over the values of an iterable like an array?",
+    "options": ["a) for...in", "b) for...of", "c) forEach()", "d) while"],
+    "answer": "b"
+  },
+  {
+    "id": 85,
+    "question": "What will the following code output? console.log(2 + 2 + '2');",
+    "options": ["a) '22'", "b) '42'", "c) '222'", "d) '62'"],
+    "answer": "b"
+  },
+  {
+    "id": 86,
+    "question": "Which method removes whitespace from both ends of a string?",
+    "options": ["a) trim()", "b) strip()", "c) cut()", "d) slice()"],
+    "answer": "a"
+  },
+  {
+    "id": 87,
+    "question": "What will [1, 2, 3].map(num => num * 2) return?",
+    "options": ["a) [2, 4, 6]", "b) [1, 2, 3, 2]", "c) [2, 2, 2]", "d) Error"],
+    "answer": "a"
+  },
+  {
+    "id": 88,
+    "question": "Which operator can combine multiple conditions in an if statement?",
+    "options": ["a) &&", "b) ||", "c) !", "d) Both a and b"],
+    "answer": "d"
+  },
+  {
+    "id": 89,
+    "question": "What is the value of x after executing: let x = 5; x += 3;",
+    "options": ["a) 5", "b) 8", "c) 3", "d) 53"],
+    "answer": "b"
+  },
+  {
+    "id": 90,
+    "question": "What is the correct way to convert a string '123' to a number?",
+    "options": [
+      "a) Number('123')",
+      "b) parseInt('123')",
+      "c) Both a and b",
+      "d) string('123')"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 91,
+    "question": "Which method creates a new array with elements that pass a test?",
+    "options": ["a) filter()", "b) map()", "c) reduce()", "d) find()"],
+    "answer": "a"
+  },
+  {
+    "id": 92,
+    "question": "Which loop structure is best for iterating over an array when you need the index?",
+    "options": [
+      "a) for...of",
+      "b) for...in",
+      "c) traditional for loop",
+      "d) while loop"
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 93,
+    "question": "What does the 'new' keyword do when placed before a function call?",
+    "options": [
+      "a) Creates a new instance of an object",
+      "b) Calls the function without context",
+      "c) Returns null",
+      "d) Declares a variable"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 94,
+    "question": "Which method permanently sets the 'this' context for a function?",
+    "options": ["a) bind()", "b) call()", "c) apply()", "d) fix()"],
+    "answer": "a"
+  },
+  {
+    "id": 95,
+    "question": "What is the purpose of the 'use strict' directive?",
+    "options": [
+      "a) To allow the use of undeclared variables",
+      "b) To enforce stricter parsing and error handling",
+      "c) To enable ES6 features",
+      "d) To disable hoisting"
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 96,
+    "question": "Which method creates a new array by transforming every element?",
+    "options": ["a) map()", "b) reduce()", "c) filter()", "d) forEach()"],
+    "answer": "a"
+  },
+  {
+    "id": 97,
+    "question": "Which keyword is used to declare block-scoped variables?",
+    "options": ["a) var", "b) let", "c) const", "d) Both b and c"],
+    "answer": "d"
+  },
+  {
+    "id": 98,
+    "question": "What does Math.random() do?",
+    "options": [
+      "a) Generates a random decimal between 0 and 1",
+      "b) Generates a random integer",
+      "c) Randomizes an array",
+      "d) Generates a random boolean"
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is a feature introduced in ES6?",
+    "options": [
+      "a) Classes",
+      "b) Arrow functions",
+      "c) Template literals",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 100,
+    "question": "Which of the following is used to handle asynchronous operations?",
+    "options": [
+      "a) Callbacks",
+      "b) Promises",
+      "c) async/await",
+      "d) All of the above"
+    ],
+    "answer": "d"
+  }
+]
