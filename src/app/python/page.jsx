@@ -7,9 +7,40 @@ function python() {
   const [userAnswers, setUserAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
 
+  // Function to generate a quiz filtered by already attempted questions
+  const generateQuiz = () => {
+    // Retrieve attempted question IDs from sessionStorage; if none, start with an empty array.
+    let attempted = sessionStorage.getItem("attemptedQuestions");
+    attempted = attempted ? JSON.parse(attempted) : [];
+
+    // Filter out questions that have been attempted
+    let availableQuestions = questionsData.filter(
+      (q) => !attempted.includes(q.id)
+    );
+
+    // If there are fewer than 10 new questions, reset attempted so that the quiz can run
+    if (availableQuestions.length < 10) {
+      availableQuestions = questionsData;
+      attempted = [];
+    }
+
+    // Shuffle the available questions and select 10
+    const shuffled = [...availableQuestions].sort(() => Math.random() - 0.5);
+    const newQuiz = shuffled.slice(0, 10);
+
+    // Update the list of attempted questions in sessionStorage
+    const newAttempted = [...attempted, ...newQuiz.map((q) => q.id)];
+    sessionStorage.setItem("attemptedQuestions", JSON.stringify(newAttempted));
+
+    // Update state
+    setQuiz(newQuiz);
+    setUserAnswers({});
+    setSubmitted(false);
+  };
+
+  // Generate the initial quiz on component mount
   useEffect(() => {
-    const shuffled = [...questionsData].sort(() => Math.random() - 0.5);
-    setQuiz(shuffled.slice(0, 10));
+    generateQuiz();
   }, []);
 
   const handleAnswerChange = (questionId, value) => {
@@ -22,6 +53,11 @@ function python() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
+  };
+
+  // Function for the "Try Again" button
+  const handleTryAgain = () => {
+    generateQuiz();
   };
 
   const score = quiz.reduce(
@@ -107,6 +143,12 @@ function python() {
                 </div>
               );
             })}
+            <button
+              onClick={handleTryAgain}
+              className="mt-6 w-full bg-green-600 text-white py-3 px-4 rounded-lg hover:bg-green-700 transition duration-300 text-xl"
+            >
+              Try Again
+            </button>
           </div>
         )}
       </div>

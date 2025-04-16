@@ -7,9 +7,41 @@ function CSharp() {
   const [userAnswers, setUserAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
 
+  const generateQuiz = () => {
+    // Retrieve previous attempts from sessionStorage
+    let attempted = sessionStorage.getItem("csharpAttemptedQuestions");
+    attempted = attempted ? JSON.parse(attempted) : [];
+
+    // Filter out already attempted questions
+    let availableQuestions = questionsData.filter(
+      (q) => !attempted.includes(q.id)
+    );
+
+    // Reset if fewer than 10 questions available
+    if (availableQuestions.length < 10) {
+      availableQuestions = questionsData;
+      attempted = [];
+    }
+
+    // Shuffle and select 10 new questions
+    const shuffled = [...availableQuestions].sort(() => Math.random() - 0.5);
+    const newQuiz = shuffled.slice(0, 10);
+
+    // Update attempted question list
+    const newAttempted = [...attempted, ...newQuiz.map((q) => q.id)];
+    sessionStorage.setItem(
+      "csharpAttemptedQuestions",
+      JSON.stringify(newAttempted)
+    );
+
+    // Update component state
+    setQuiz(newQuiz);
+    setUserAnswers({});
+    setSubmitted(false);
+  };
+
   useEffect(() => {
-    const shuffled = [...questionsData].sort(() => Math.random() - 0.5);
-    setQuiz(shuffled.slice(0, 10));
+    generateQuiz();
   }, []);
 
   const handleAnswerChange = (questionId, value) => {
@@ -22,6 +54,10 @@ function CSharp() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
+  };
+
+  const handleTryAgain = () => {
+    generateQuiz();
   };
 
   const score = quiz.reduce(
@@ -107,6 +143,12 @@ function CSharp() {
                 </div>
               );
             })}
+            <button
+              onClick={handleTryAgain}
+              className="mt-6 w-full bg-green-600 text-white py-3 px-4 rounded-lg hover:bg-green-700 transition duration-300 text-xl"
+            >
+              Try Again
+            </button>
           </div>
         )}
       </div>
